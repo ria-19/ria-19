@@ -13,7 +13,7 @@
 ```javascript
 const riya = {
   pronouns: ["She", "Her"],
-  code: ["Java", "Python", "JavaScript", "C"],
+  code: ["Java", "Python", "JavaScript", "C/C++"],
   askMeAbout: ["Web Development", "Technology", "DevOps", "Painting"],
   technologies: {
     backEnd: {
