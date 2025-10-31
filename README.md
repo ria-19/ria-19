@@ -1,26 +1,26 @@
-# 👋 Hi, I'm Riya Sangwan
+# 👋 Hi, I'm Riya 
 
 **Software Engineer** | Building end-to-end AI/ML systems and learning in public
 
 🎯 **Applied AI/ML Engineer in training** — Currently in the **"build, break, learn, rebuild"** phase, shipping projects to understand how AI systems work in practice.
 
----
+
 
 ## 🛠️ What I've Shipped Recently
 
 ### **[RepoRAG](https://github.com/ria-19/reporag)** — Question Answering for Code Repositories
 > Helping developers understand unfamiliar codebases through natural language queries
 
-A RAG-based system that lets you ask questions about any GitHub repository. Built to learn how retrieval quality impacts LLM responses in code contexts.
+A RAG-based system that lets you ask questions about any GitHub repository: built to learn how retrieval quality impacts LLM responses in code contexts.
 
 - **Tech Stack**: RAG, Hybrid Search (BM25 + Semantic), Cross-Encoder Re-ranking, FastAPI, Docker, Ollama
 - **What works**: Hybrid search improved top-3 accuracy from 45% → 82%
 - **Key learning**: Code chunking is hard — naive token splitting breaks function boundaries. Built AST-based chunking to preserve context
-- **What I'm still fixing**: LLM hallucination (currently ~8%, was ~30%). Experimenting with stricter prompts + source attribution
-- **Next iteration**: Adding knowledge graph integration to better understand code relationships
+- **What I'm still fixing**: LLM hallucination (currently ~8%, was ~30%). Experimenting with AST-based chunking.
+- **Next iteration**: Adding knowledge graph integration to understand code relationships better
 - **Status**: V1 shipped, open for contributions
 
-**Production metrics coming soon:** Planning to deploy as internal tool and measure actual usage patterns.
+**Production metrics coming soon:** Planning to deploy as an internal tool and measure actual usage patterns.
 
 ---
 
@@ -36,7 +36,7 @@ Production-ready ML pipeline with business metrics, Docker deployment, and syste
 - **System Design**: Documented scaling considerations for 10K → 1M customers
 - [GitHub](link) • [System Design Doc](link)
 
-**Business impact metrics:** Working on deploying to real use case to measure actual marketing ROI.
+**Business impact metrics:** Working on deploying to a real use case to measure actual marketing ROI.
 
 ---
 
@@ -125,7 +125,7 @@ FastAPI, Flask, Streamlit, Docker, AWS, GitHub Actions, MLflow
 I'm learning to build systems that **work reliably in production, not just in controlled environments.**
 
 Key principles I'm developing:
-- **Data quality matters more than model complexity** — Spent 3 days debugging clustering, root cause was outliers
+- **Data quality matters more than model complexity** — Spent 3 days debugging clustering; the root cause was outliers
 - **Business metrics ≠ ML metrics** — High accuracy doesn't mean stakeholders can act on it
 - **Production ≠ Notebook** — 10-min notebook code → 5-sec production API requires different thinking
 - **Failure modes matter** — Understanding when models break is more valuable than perfect accuracy on test sets
@@ -160,10 +160,8 @@ See `CONTRIBUTING.md` in each repo for how to get started. Issues labeled `good-
 - 💼 Early-stage opportunities, contract work, or internships
 
 **Find me at:**
-- **LinkedIn**: [Your LinkedIn](link)
 - **GitHub**: [@ria-19](https://github.com/ria-19) — All projects open source & accepting contributions
-- **Twitter**: [@YourHandle](link)
-- **Email**: your.email@example.com
+- **Email**: riyasangwandec19@example.com
 
 ---
 
