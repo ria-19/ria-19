@@ -161,7 +161,7 @@ See `CONTRIBUTING.md` in each repo for how to get started. Issues labeled `good-
 
 **Find me at:**
 - **GitHub**: [@ria-19](https://github.com/ria-19) — All projects open source & accepting contributions
-- **Email**: riyasangwandec19@example.com
+- **Email**:  [Email](riyasangwandec19@example.com)
 
 ---
 
