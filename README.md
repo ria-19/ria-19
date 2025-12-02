@@ -44,17 +44,17 @@
 
 ### 2. Semantic Router — Fine-Tuned Function Calling Model
 
-**The Problem**: GPT-4 is smart but expensive. Base Llama-3 is cheap but hallucinates JSON like it's abstract art.
+**The Problem**: GPT-4 is smart but expensive. Llama-3.1-Instruct is capable, but it's too "chatty" for automated pipelines. It often wraps JSON in conversational fluff ("Sure! Here is the code...") or hallucinates arguments for complex custom tools like my Python Sandbox.
 
-**My Solution**: Bullying a small model (Llama-3-8B) into following instructions via LoRA fine-tuning.
+**My Solution**: Using QLoRA and Unsloth to fine-tune a specialized adapter specifically for accurate function calling. This forces the model to ignore conversational norms and output raw, executable JSON schemas, running efficiently on a single T4 GPU (Local/Colab).
 
 - **Progress**: 
-    - ✅ Generated 2K synthetic training examples.
-    - 🚧 Training LoRA adapter (My GPU fan sounds like a jet engine right now).
-    - 📊 Target: <5% hallucination rate.
-- **Goal**: Make a local 8B model behave like a senior engineer.
+    - ✅ Generated synthetic training data for internal tools (Sandbox Exec, File Manager, Hybrid Search).
+    - 🚧 Training the LoRA adapter via Unsloth (Squeezing "Senior Engineer" performance out of 16GB VRAM).
+    - 📊 Target: 0% Syntax Errors, 100% Valid JSON execution.
+- **Goal**: Turn a generalist 8B model into a deterministic surgical instrument for code manipulation.
 
-**Status**: Active Development (Praying for convergence) | [View Project →](https://github.com/ria-19/semantic_router)
+**Status**: Active Development (Baking the weights) | [View Project →](https://github.com/ria-19/semantic_router)
 
 ---
 
