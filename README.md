@@ -54,7 +54,7 @@
     - 📊 Target: <5% hallucination rate.
 - **Goal**: Make a local 8B model behave like a senior engineer.
 
-**Status**: Active Development (Praying for convergence)
+**Status**: Active Development (Praying for convergence) | [View Project →](https://github.com/ria-19/semantic_router)
 
 ---
 
